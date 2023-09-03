@@ -35,8 +35,6 @@ export default function Completion({ setData }: any) {
           Send
         </button>
       </form>
-
-      <output>Completion result: {completion}</output>
     </div>
   );
 }
