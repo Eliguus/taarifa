@@ -42,7 +42,6 @@ export default function HomePage() {
           alt={""}
           className="m-5 w-[200rem]"
         />
-        <History />
       </div>
       <div className="w-7/12">
         <div className="mb-24 my-16">
@@ -57,7 +56,7 @@ export default function HomePage() {
               }}
               className="ml-80 m-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none"
             >
-              Add a Course
+              See Path
             </button>
           </Link>
         </div>
