@@ -1,7 +1,7 @@
 "use client";
 import { useCompletion } from "ai/react";
 
-export default function Completion({ setData }: any) {
+export default function Completion() {
   const {
     completion,
     input,
@@ -27,15 +27,10 @@ export default function Completion({ setData }: any) {
         <button type="button" onClick={stop}>
           Stop
         </button>
-        <button
-          onClick={() => setData(completion)}
-          disabled={isLoading}
-          type="submit"
-        >
+        <button disabled={isLoading} type="submit">
           Send
         </button>
       </form>
-
       <output>Completion result: {completion}</output>
     </div>
   );
